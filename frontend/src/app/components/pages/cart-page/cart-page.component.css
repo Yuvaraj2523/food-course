@@ -58,7 +58,7 @@ li .remove-button{
   border-radius: 1rem;
   border: none;
   padding: 0.5rem;
-  color: #e72929;
+  color: #FF5607;
   opacity: 0.7;
   outline: none;
 }
@@ -108,7 +108,7 @@ li .remove-button:hover{
 .checkout a{
   padding: 1rem;
   color: white;
-  background:#e72929;
+  background:#FF5607;
   display: block;
   width: 99%;
   border-radius: 1rem;
