@@ -1,5 +1,5 @@
-import {connect, ConnectOptions} from 'mongoose';
-
+import mongoose, {connect, ConnectOptions} from 'mongoose';
+mongoose.set('strictQuery', true);
 export const dbConnect = () => {
     connect(process.env.MONGO_URI!, {
         useNewUrlParser: true,
