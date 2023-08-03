@@ -12,7 +12,7 @@ export class DefaultButtonComponent implements OnInit {
   @Input()
   text:string = 'Submit';
   @Input()
-  bgColor = '#7457';
+  bgColor = '#e72929';
   @Input()
   color = 'white';
   @Input()
